@@ -1,0 +1,22 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: bibliography-service # Nome para o Eureka e Feign Clients
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bibliografia_db # Crie este banco no Postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update # Cria/atualiza tabelas automaticamente (use 'validate' em produção)
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true

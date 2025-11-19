@@ -1,0 +1,6 @@
+br\ucsal\bibliography_service\model\Bibliografia.class
+br\ucsal\bibliography_service\repository\BibliografiaRepository.class
+br\ucsal\bibliography_service\model\Bibliografia$BibliografiaBuilder.class
+br\ucsal\bibliography_service\service\BibliografiaService.class
+br\ucsal\bibliography_service\controller\BibliografiaController.class
+br\ucsal\bibliography_service\dto\BibliografiaDTO.class
