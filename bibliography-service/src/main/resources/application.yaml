@@ -5,9 +5,9 @@ spring:
   application:
     name: bibliography-service # Nome para o Eureka e Feign Clients
   datasource:
-    url: jdbc:postgresql://localhost:5432/bibliografia_db # Crie este banco no Postgres
+    url: jdbc:postgresql://localhost:5432/bibliografia_db
     username: postgres
-    password: postgres
+    password: postgree123
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
